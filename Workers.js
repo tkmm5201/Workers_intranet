@@ -6,7 +6,7 @@ export default {
     if (url.hostname === 'xxx.xxxx.xxxx') {
       //xxx.xxxx.xxxx是你Workers绑定的域名
       url.hostname = 'xxx.xxx.xxx';
-      // 设置目标内容域名和端口
+      // 设置目标内网域名和端口
       url.port = 'xxxx';
       // 确保使用 HTTP 协议还是https
       url.protocol = 'http:';
